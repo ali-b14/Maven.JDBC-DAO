@@ -3,7 +3,7 @@
 Requirements
 
 * JDK 1.8
-* SQL database
+* SQL database //signed into mysql.
 
 
 ## Part 1 Create Data Model
