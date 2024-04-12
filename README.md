@@ -28,6 +28,8 @@ a _car_ table may have the fields for:
 
 Use Maven.com to get the sql-connector-java dependency. Add this to your pom.xml
 
+insert into car(id,make,model,year,color,vin) values(1,'Toyota','Prius','2022','Red','4Y1SL65848Z41143'),
+(2,'Honda','Accord','2017','Black','5Z1SW78322M99371'), (3,'Kia','Optima','2019','Red','5Z1SR98342B88773'),(4,'BMW','X3','2024','Blue','7E1QR72333N99154'), (5,'Toyota','Corolla','1996','Grey','2A8BV79351L92371');
 
 ## Create DAO
 
