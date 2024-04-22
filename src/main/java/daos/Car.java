@@ -9,7 +9,19 @@ public class Car implements DTO {
     private String vin;
 
     public Car(){
+    }
+    public Car(int id, String make, String model, String year, String color, String vin) {
+        this.id = id;
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+        this.vin = vin;
+    }
 
+    @Override
+    public int getId() {
+        return id;
     }
     public void setId(int id) {
         this.id = id;
@@ -53,19 +65,5 @@ public class Car implements DTO {
 
     public void setVin(String vin) {
         this.vin = vin;
-    }
-
-    public Car(int id, String make, String model, String year, String color, String vin) {
-        this.id = id;
-        this.make = make;
-        this.model = model;
-        this.year = year;
-        this.color = color;
-        this.vin = vin;
-    }
-
-    @Override
-    public int getId() {
-        return id;
     }
 }
